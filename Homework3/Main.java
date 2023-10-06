@@ -45,7 +45,7 @@ public class Main{
         long telephone = TelephoneParsing(dataArray[4]);
         char sex = SexParsing(dataArray[5]);
 
-        String nameOfFile = "D:\\Coding\\Java_GB\\src\\exceptions\\homework3\\" + name + ".txt";
+        String nameOfFile = "D:\\slavabelov\\Exceptions_3_Seminar\\blob\\main\\Homework3\\" + name + ".txt";
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(nameOfFile, true))) {
             String dataOfUser = "(" + name + "(" + ")" + surname + "(" + ")" + secondName + "(" + ")" + dateOfBirth + "(" + ")" +
                     telephone + "(" + ")" + sex + ")";
